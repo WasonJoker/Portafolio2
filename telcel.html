@@ -1,4 +1,46 @@
-<li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Sobre mi</a></li>
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="telcel.html">Telcel</a></li>
                 <li><a href="liberados.html">Liberados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar artículos...">
+            <ul id="suggestions"></ul>
+        </div>
+
+        <div class="articles-container">
+            <div class="article-box">
+                <h2 class="article-title">Artículo 1</h2>
+                <img src="logo1.png" alt="Logo 1" class="article-logo">
+                <p class="article-description">Breve descripción del artículo 1.</p>
+            </div>
+            <div class="article-box">
+                <h2 class="article-title">Artículo 2</h2>
+                <img src="logo2.png" alt="Logo 2" class="article-logo">
+                <p class="article-description">Breve descripción del artículo 2.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
